@@ -30,3 +30,15 @@ create table information
     idObjet int,
     FOREIGN KEY(idObjet) REFERENCES objet(idObjet)
 );
+
+insert into user values (null, 'Jean Michel', 'jean');
+insert into user values (null, 'Jeanne Amandine','jeanne');
+insert into user values (null, 'Rabe Jaonea', 'rabe');
+insert into user values (null, 'Rakoto Malala', 'rakoto');
+insert into user values (null, 'John Stones', 'john');
+insert into user values (null,'Jane Eyre', 'jane');
+insert into user values (null, 'Francesco Fognini', 'francesco');
+insert into user values (null, 'Sarah Oliveira', 'sarah');
+
+
+
