@@ -7,12 +7,13 @@
 </head>
 <body>
 <div class="container">
-	<h1 class="page-header text-center">CodeIgniter Login with Session</h1>
+	<h1 class="page-header text-center">Login </h1>
 	<div class="row">
 		<div class="col-sm-4 col-sm-offset-4">
 			<div class="login-panel panel panel-primary">
 		        <div class="panel-heading">
-		            <h3 class="panel-title"><span class="glyphicon glyphicon-lock"></span> Login
+					<h3 class="panel-title"><span class="glyphicon glyphicon-lock"></span>Login
+					
 		            </h3>
 		        </div>
 		    	<div class="panel-body">
@@ -24,7 +25,8 @@
 		                	<div class="form-group">
 		                    	<input class="form-control" placeholder="Password" type="password" name="password" required>
 		                	</div>
-		                	<button type="submit" class="btn btn-lg btn-primary btn-block"><span class="glyphicon glyphicon-log-in"></span> Login</button>
+							<a href=""></a>
+							<button type="submit" class="btn btn-lg btn-primary btn-block"><span class="glyphicon glyphicon-log-in"></span> Login</button>
 		            	</fieldset>
 		        	</form>
 		    	</div>
@@ -67,7 +69,7 @@ home.php This is our login success landing page.
 			<p>Password: <?php echo $password; ?></p>
 			<a href="<?php echo base_url(); ?>index.php/user/logout" class="btn btn-danger">Logout</a>
 		
-		</div>
+		</div>	
 	</div>
 </div>
 </body>
