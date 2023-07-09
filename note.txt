@@ -1,0 +1,63 @@
+###### Strucutre
+
+   **** User     [ users ]
+id
+nom
+prenom
+email
+mot_passe
+
+   **** Category [ categories ]
+id
+libelle
+
+   **** Objet    [ objets ]
+id 
+titre
+description
+prix
+category_id
+user_id
+
+   **** Photo    [ photos ]
+id
+nom
+objet_id
+
+   **** Demandes [ demandes ]
+id
+date_creation
+status [accept,  refus]
+demandeur_id
+objet_id
+
+###### ./Strucutre
+
+
+##### URL
+
+   *** Authentification
+http://localhost/projet-takalo/authentification/loginFrontOffice
+http://localhost/projet-takalo/authentification/registerFrontOffice
+http://localhost/projet-takalo/authentification/loginBackOffice
+
+   *** BackOffice
+http://localhost/projet-takalo/backoffice/home
+
+http://localhost/projet-takalo/backOffice/categories
+
+   *** FrontOffice
+http://localhost/projet-takalo/frontOffice/home
+http://localhost/projet-takalo/frontOffice/detailObjet
+http://localhost/projet-takalo/frontOffice/profile
+http://localhost/projet-takalo/frontOffice/demande
+
+##### ./URL
+
+##### Tutoriel
+
+https://www.itsolutionstuff.com/post/codeigniter-3-basic-crud-application-with-mysql-example-with-demoexample.html
+
+https://www.buildwithphp.com/how-to-create-codeigniter-3-crud-application-using-mysql-with-example
+
+https://arjunphp.com/codeigniter-3-login/

@@ -1,0 +1,4 @@
+username : epiz_33552015
+ftp mdp : fe36J6HffP
+FTP hostname : ftpupload.net
+label : takalo22.infinityfreeapp.com
